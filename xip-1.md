@@ -4,16 +4,18 @@
 
 ## Specification
 
-## Code format
+### Code format
 
 |Offset|Bits|Description|
 |:-----|:---|:---|
 |0x0000|40|Header|
 |0x0028|...|Payload|
 
-## Header format
+### Header format
 
 |Offset|Bits|Description|
 |:-----|:---|:---|
 |0x0000|32|Magic|
 |0x0020|8|Type|
+
+* Magic: Fixed constant: 9168 (Little-Endian: 0xd0230000)
