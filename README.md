@@ -6,6 +6,6 @@ XFS Improvement Proposals
 
 |Number|Title|Author|Status|
 |:---|:---|:---|:---|
-|1|XVM Simple Bytescode format|Jesse Frank|Draft|
-|2|Token Standard|Jesse Frank|Draft|
-|3|Non-Fungible Token Standard|Jesse Frank|Draft|
+|[XIP-1](./xip-1.md)|Simple Bytescode format|Jesse Frank|Draft|
+|[XIP-2](./xip-2.md)|Token Standard|Jesse Frank|Draft|
+|[XIP-3](./xip-3.md)|Non-Fungible Token Standard|Jesse Frank|Draft|
