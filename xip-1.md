@@ -16,7 +16,25 @@
 |Offset|Bits|Description|
 |:-----|:---|:---|
 |0x0000|32|Magic|
-|0x0020|8|Type|
+|0x0020|7|Type|
+|0x0027|1|Flag|
 
 * Magic: Fixed constant: 9168 (Little-Endian: 0xd0230000)
 * Type: From standard specification
+* Flag: CREATE or CALL
+
+### Built in Contract Standards
+
+* CREATE: Payload as creation parameters
+* CALL: Payload = METHOD_CODE (8 bits) + METHOD_PARAMETERS
+
+### Data type specification
+
+|Type|bits|
+|:---|:---|
+|uint8|8|
+|uint16|16|
+|uint32|32|
+|uint256|256|
+
+* string type required length + text
