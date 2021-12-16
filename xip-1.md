@@ -19,3 +19,4 @@
 |0x0020|8|Type|
 
 * Magic: Fixed constant: 9168 (Little-Endian: 0xd0230000)
+* Type: From standard specification
