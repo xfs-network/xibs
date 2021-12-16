@@ -1,4 +1,4 @@
-# XIP-1: Simple Bytescode format
+# XIP-1: Simple Bytecode format
 
 ## Abstract
 
