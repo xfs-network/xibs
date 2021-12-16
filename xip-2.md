@@ -8,15 +8,15 @@
 
 |Method Name|Bytecode|
 |:---|:---|
-|Name|0x01|
-|Symbol|0x02|
-|Decimals|0x03|
-|TotalSupply|0x04|
-|BalanceOf|0x05|
-|Transfer|0x06|
-|TransferFrom|0x07|
-|Approve|0x08|
-|Allowance|0x09|
+|[Name](#method-name)|0x01|
+|[Symbol](#method-symbol)|0x02|
+|[Decimals](#method-decimals)|0x03|
+|[TotalSupply](#method-totalSupply)|0x04|
+|[BalanceOf](#method-balanceof)|0x05|
+|[Transfer](#method-transfer)|0x06|
+|[TransferFrom](#method-transferfrom)|0x07|
+|[Approve](#method-approve)|0x08|
+|[Allowance](#method-allowance)|0x09|
 
 ### Method: Name
 
