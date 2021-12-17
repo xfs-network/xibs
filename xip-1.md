@@ -23,6 +23,13 @@
 * Type: From standard specification
 * Flag: CREATE or CALL
 
+### Types
+
+|Type|Bytecode|Description|
+|:-----|:---|:---|
+|XRC2|0x01|Specification from [XIP-2](./xip-2.md)|
+|XRC3|0x02|Specification from [XIP-3](./xip-3.md)|
+
 ### Built in Contract Standards
 
 * CREATE: Payload as creation parameters
