@@ -65,9 +65,9 @@ Returns the account balance of another account with address `owner`.
 
 * Parameters
 
-|Offset|Name|Data Type|
-|:-----|:---|:---|
-|0x0000|owner|address|
+|Name|Data Type|
+|:---|:---|
+|owner|address|
 
 * Return type: uint256
 
@@ -77,10 +77,10 @@ Transfers `value` amount of tokens to address `to`
 
 * Parameters
 
-|Offset|Name|Data Type|
-|:-----|:---|:---|
-|0x0000|to|address|
-|0x00c8|value|uint256|
+|Name|Data Type|
+|:---|:---|
+|to|address|
+|value|uint256|
 
 * Return type: bool
 
@@ -90,11 +90,11 @@ Transfers `value` amount of tokens from address `from` to address `to`
 
 * Parameters
 
-|Offset|Name|Data Type|
-|:-----|:---|:---|
-|0x0000|from|address|
-|0x00c8|to|address|
-|0x0190|value|uint256|
+|Name|Data Type|
+|:---|:---|
+|from|address|
+|to|address|
+|value|uint256|
 
 * Return type: bool
 
@@ -106,10 +106,10 @@ If this function is called again it overwrites the current allowance with `value
 
 * Parameters
 
-|Offset|Name|Data Type|
-|:-----|:---|:---|
-|0x0000|spender|address|
-|0x00c8|value|uint256|
+|Name|Data Type|
+|:---|:---|
+|spender|address|
+|value|uint256|
 
 * Return type: bool
 
@@ -120,9 +120,9 @@ Returns the amount which `spender` is still allowed to withdraw from `owner`.
 * Parameters
 
 |Offset|Name|Data Type|
-|:-----|:---|:---|
-|0x0000|owner|address|
-|0x00c8|spender|address|
+|:---|:---|
+|owner|address|
+|spender|address|
 
 * Return type: uint256
 
