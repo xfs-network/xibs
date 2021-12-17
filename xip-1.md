@@ -37,4 +37,5 @@
 |uint32|32|
 |uint256|256|
 |address|200|
+|bool|1|
 * string type required length + text
