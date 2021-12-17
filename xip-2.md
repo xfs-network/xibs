@@ -4,6 +4,15 @@
 
 ## Specification
 
+### Create
+
+|Parameter Name|Data Type|
+|:---|:---|
+|Name|string|
+|Symbol|string|
+|Decimals|uint8|
+|TotalSupply|uint256|
+
 ### Methods
 
 |Method Name|Bytecode|
