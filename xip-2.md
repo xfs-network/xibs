@@ -40,7 +40,7 @@ Returns the number of decimals the token uses - e.g. 8, means to divide the toke
 
 * No Parameters
 
-* Return type: string
+* Return type: uint8
 
 ### Method: TotalSupply
 
@@ -48,7 +48,7 @@ Returns the total token supply.
 
 * No Parameters
 
-* Return type: string
+* Return type: uint256
 
 ### Method: BalanceOf
 
@@ -58,4 +58,63 @@ Returns the account balance of another account with address `owner`.
 
 |Offset|Name|Data Type|
 |:-----|:---|:---|
-|0x0000|owner|byte\[10\]|
+|0x0000|owner|address|
+
+* Return type: uint256
+
+### Method: Transfer
+
+Transfers `value` amount of tokens to address `to`
+
+* Parameters
+
+|Offset|Name|Data Type|
+|:-----|:---|:---|
+|0x0000|to|address|
+|0x00c8|value|uint256|
+
+* Return type: bool
+
+### Method: TransferFrom
+
+Transfers `value` amount of tokens from address `from` to address `to`
+
+* Parameters
+
+|Offset|Name|Data Type|
+|:-----|:---|:---|
+|0x0000|from|address|
+|0x00c8|to|address|
+|0x0190|value|uint256|
+
+* Return type: bool
+
+
+### Method: Approve
+
+Allows `spender` to withdraw from your account multiple times, up to the `value` amount.
+If this function is called again it overwrites the current allowance with `value`.
+
+* Parameters
+
+|Offset|Name|Data Type|
+|:-----|:---|:---|
+|0x0000|spender|address|
+|0x00c8|value|uint256|
+
+* Return type: bool
+
+### Method: Allowance
+
+Returns the amount which `spender` is still allowed to withdraw from `owner`.
+
+* Parameters
+
+|Offset|Name|Data Type|
+|:-----|:---|:---|
+|0x0000|owner|address|
+|0x00c8|spender|address|
+
+* Return type: uint256
+
+
