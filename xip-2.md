@@ -119,7 +119,7 @@ Returns the amount which `spender` is still allowed to withdraw from `owner`.
 
 * Parameters
 
-|Offset|Name|Data Type|
+|Name|Data Type|
 |:---|:---|
 |owner|address|
 |spender|address|
