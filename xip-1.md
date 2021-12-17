@@ -36,5 +36,5 @@
 |uint16|16|
 |uint32|32|
 |uint256|256|
-
+|address|200|
 * string type required length + text
