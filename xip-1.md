@@ -8,15 +8,15 @@
 
 |Offset|Bits|Description|
 |:-----|:---|:---|
-|0x0000|40|Header|
+|0x0000|19|Header|
 
 ### Header format
 
 |Offset|Bits|Description|
 |:-----|:---|:---|
 |0x0000|16|Magic|
-|0x0028|1|Type|
-|0x0030|8|BuiltinId|
+|0x0010|1|Type|
+|0x0011|8|BuiltinId|
 
 * Magic: Fixed constant: 9168 (Little-Endian: 0xd023)
 * Type: If `type == 1` is a built-in contract, else `type = 0`
