@@ -31,8 +31,8 @@
 
 ### Built in Contract Standards
 
-* CREATE: Input = CODE + CREATE_FUNC_HASH (256 bits) + FUNC_PARAMETERS
-* CALL: Input = CALL_FUNC_HASH (256 bits) + FUNC_PARAMETERS
+* CREATE: INPUT = CODE + CREATE_FUNC_HASH (256 bits) + FUNC_PARAMETERS
+* CALL: INPUT = CALL_FUNC_HASH (256 bits) + FUNC_PARAMETERS
 
 ### Data type specification
 
