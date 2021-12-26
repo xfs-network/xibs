@@ -9,31 +9,30 @@
 |Offset|Bits|Description|
 |:-----|:---|:---|
 |0x0000|40|Header|
-|0x0028|...|Payload|
 
 ### Header format
 
 |Offset|Bits|Description|
 |:-----|:---|:---|
-|0x0000|32|Magic|
-|0x0020|7|Type|
-|0x0027|1|Flag|
+|0x0000|16|Magic|
+|0x0028|1|Type|
+|0x0030|8|BuiltinId|
 
-* Magic: Fixed constant: 9168 (Little-Endian: 0xd0230000)
-* Type: From standard specification
-* Flag: CREATE or CALL
+* Magic: Fixed constant: 9168 (Little-Endian: 0xd023)
+* Type: If `type == 1` is a built-in contract, else `type = 0`
+* BuiltinId: If `type = 0:  builtinId = 0`, else find specification from [Builtin IDs](#builtin-ids)
 
-### Types
+### Builtin IDs
 
-|Type|Bytecode|Description|
+|Name|Bytecode|Description|
 |:-----|:---|:---|
 |XRC2|0x01|Specification from [XIP-2](./xip-2.md)|
 |XRC3|0x02|Specification from [XIP-3](./xip-3.md)|
 
 ### Built in Contract Standards
 
-* CREATE: Payload as creation parameters
-* CALL: Payload = METHOD_CODE (8 bits) + METHOD_PARAMETERS
+* CREATE: Input = CODE + CREATE_FUNC_HASH (256 bits) + FUNC_PARAMETERS
+* CALL: Input = CALL_FUNC_HASH (256 bits) + FUNC_PARAMETERS
 
 ### Data type specification
 
@@ -45,4 +44,5 @@
 |uint256|256|
 |address|200|
 |bool|1|
+
 * string type required length + text
