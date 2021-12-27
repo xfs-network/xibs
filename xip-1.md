@@ -8,7 +8,7 @@
 
 |Offset|Bits|Description|
 |:-----|:---|:---|
-|0x0000|19|Header|
+|0x0000|21|Header|
 
 ### Header format
 
