@@ -8,19 +8,17 @@
 
 |Offset|Bits|Description|
 |:-----|:---|:---|
-|0x0000|25|Code|
-|0x0019|...|Payload|
+|0x0000|24|Code|
+|0x0018|...|Payload|
 ### Header format
 
 |Offset|Bits|Description|
 |:-----|:---|:---|
 |0x0000|16|Magic|
-|0x0010|1|Type|
 |0x0011|8|BuiltinId|
 
 * Magic: Fixed constant: 9168 (Little-Endian: 0xd023)
-* Type: If `type == 1` is a built-in contract, else `type = 0`
-* BuiltinId: If `type = 0:  builtinId = 0`, else find specification from [Builtin IDs](#builtin-ids)
+* BuiltinId: If `BuiltinId > 0` is a built-in contract, from [Builtin IDs](#builtin-ids)
 
 ### Builtin IDs
 
