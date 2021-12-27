@@ -15,7 +15,7 @@
 |Offset|Bits|Description|
 |:-----|:---|:---|
 |0x0000|16|Magic|
-|0x0011|8|BuiltinId|
+|0x0010|8|BuiltinId|
 
 * Magic: Fixed constant: 9168 (Little-Endian: 0xd023)
 * BuiltinId: If `BuiltinId > 0` is a built-in contract, from [Builtin IDs](#builtin-ids)
