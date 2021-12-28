@@ -15,17 +15,17 @@
 
 ### Methods
 
-|Method Name|Bytecode|
-|:---|:---|
-|[Name](#method-name)|0x01|
-|[Symbol](#method-symbol)|0x02|
-|[Decimals](#method-decimals)|0x03|
-|[TotalSupply](#method-totalSupply)|0x04|
-|[BalanceOf](#method-balanceof)|0x05|
-|[Transfer](#method-transfer)|0x06|
-|[TransferFrom](#method-transferfrom)|0x07|
-|[Approve](#method-approve)|0x08|
-|[Allowance](#method-allowance)|0x09|
+|Method Name|
+|:---|
+|[Name](#method-name)|
+|[Symbol](#method-symbol)|
+|[Decimals](#method-decimals)|
+|[TotalSupply](#method-totalSupply)|
+|[BalanceOf](#method-balanceof)|
+|[Transfer](#method-transfer)|
+|[TransferFrom](#method-transferfrom)|
+|[Approve](#method-approve)|
+|[Allowance](#method-allowance)|
 
 ### Method: Name
 
